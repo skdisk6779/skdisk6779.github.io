@@ -72,3 +72,56 @@ a:visited{
   font-weight: 900;
   text-decoration: underline;
 }
+/* index 페이지의 배경 이미지 지정 */
+.main-bg{
+  background: url('../assets/main-bg.jpg') no-repeat 0 0/cover;
+  height: 100vh;
+}
+/* footer */
+.footer{
+  background: #fff;
+  box-shadow: 0 -1px 10px 0 #333;
+}
+.main-bg .footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+/* 저작권 */
+.copyright{
+  display: block;
+  text-align: center;
+  padding: 2em;
+}
+/* index 페이지 education 섹션 */
+.education{
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  text-align: center;
+  padding: 1px 0 20px;
+  margin: 100px 0;
+}
+.education-title{
+  font-size: 6rem;
+}
+.education-time{
+  font-size: 2rem;
+}
+.education-place{
+  font-size: 2rem;
+}
+/* introduce 페이지의 about-me 섹션 */
+.about-me{
+
+  padding: 20px 100px;
+  /* width: 1024px;
+  margin: 0 auto; */
+}
+.about-photo{
+  width: 100%;
+}
+.about-photo img{
+  max-width: 100%;
+  height: auto;
+}
